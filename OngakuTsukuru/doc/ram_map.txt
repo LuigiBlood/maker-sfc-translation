@@ -1,0 +1,2 @@
+7E4000 - BG Tilemap
+7E8000 - BG Tiles

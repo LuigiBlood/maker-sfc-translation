@@ -1,0 +1,15 @@
+818A44 - Code - Decompression ($00 = Source Addr, $03 = Dest Addr)
+
+Reads 2 bytes, constantly shifts right, uses carry
+    0b1 = copy next byte to dest
+    0b10 = read next 2 bytes (0bNNNNNNNN NNNNNPPP)
+            use 0b111NNNNN NNNNNNNN as a relative signed address
+            if 0bPPP = 0 then read next byte 0xMM
+                if 0xMM = 0 then STOP
+                if 0xMM = 1 then copy 2 bytes from relative dest addr
+                else then use 0xMM+1 as an amount of bytes to copy from relative dest addr
+            else then use 0bPPP+2 as an amount of bytes to copy from relative dest addr
+    0bXY00 = read next byte 0xMM
+            use 0xFFMM as relative signed address
+            0bYX + 2 as an amount of bytes to copy from relative dest addr
+If running out of bits, read the next 2 bytes and continue shifting right
