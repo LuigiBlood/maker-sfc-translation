@@ -20,5 +20,7 @@
 				if XX != 00 then stop and save value to $62
 				$62 is for VRAM upload, best to keep it as is
 
+C20000 - Tiles (Compressed) - Font for Saves
+C211D0 - Tiles (Compressed) - Save/Load/Delete/Reset Menu
 C7E728 - Tiles (Compressed) - Data Menu (from Composition Screen)
 C7ED08 - Tilemap - Data Menu (from Composition Screen) / 14x14
