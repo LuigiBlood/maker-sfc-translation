@@ -1,0 +1,1 @@
+".\tools\bsnes-plus\bsnes-performance" ".\roms\OngakuTsukuruJP.sfc"
