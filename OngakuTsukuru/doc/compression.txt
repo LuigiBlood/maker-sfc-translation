@@ -4,11 +4,16 @@ Reads 2 bytes from source, constantly shifts right, uses carry
     0b1 = COPY next byte from source to dest
     0b10 = read next 2 bytes from source (0bNNNNNNNN NNNNNPPP)
             USE 0b111NNNNN NNNNNNNN as relative signed address
-            if 0bPPP = 0 then read next byte 0xMM from source
-                if 0xMM = 0 then STOP
-                if 0xMM = 1 then COPY 2 bytes from relative dest addr
-                else then COPY 0xMM+1 bytes from relative dest addr
-            else then COPY 0bPPP+2 bytes from relative dest addr
+            if 0bPPP = 0 then
+				read next byte 0xMM from source
+                if 0xMM = 0 then
+					STOP
+                if 0xMM = 1 then
+					COPY 2 bytes from relative dest addr
+            	else then
+					COPY 0xMM+1 bytes from relative dest addr
+            else then
+				COPY 0bPPP+2 bytes from relative dest addr
     0bXY00 = read next byte 0xMM from source
             USE 0xFFMM as relative signed address
             COPY 0bYX + 2 bytes from relative dest addr

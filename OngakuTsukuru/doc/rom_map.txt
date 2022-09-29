@@ -1,5 +1,24 @@
 
-818A44 - Code - Decompression ($00 = Source Addr, $03 = Dest Addr)
+80AF3F - Code - Call Set Tilemap
+				Argument Address = $AAYYXX (-1)
+				Copy Arguments from Address to $00
+
+818680 - Code - Set Tilemap
+				L$00 = Source Addr
+				L$03 = Dest (Tilemap) Addr
+				B$06 = Width
+				B$07 = Height
+				W$08 = Base Tilemap Value
+
+818A44 - Code - Decompression
+				L$00 = Source Addr
+				L$03 = Dest Addr
+
+82C072 - Code - Decompression Batch
+				A = 16-bit Address (bank 0x82)
+				XX SSSSSS DDDDDD if XX = 00
+				if XX != 00 then stop and save value to $62
+				$62 is for VRAM upload, best to keep it as is
 
 C7E728 - Tiles (Compressed) - Data Menu (from Composition Screen)
 C7ED08 - Tilemap - Data Menu (from Composition Screen) / 14x14
