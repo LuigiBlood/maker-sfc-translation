@@ -70,7 +70,7 @@ if len(sys.argv) == 4:
 	f.close()
 
 	out = decompress(t, int(sys.argv[2], base=16))
-	fw = open("test.bin", "wb")
+	fw = open(str(sys.argv[3]), "wb")
 	fw.write(bytearray(out))
 	fw.close()
 else:
