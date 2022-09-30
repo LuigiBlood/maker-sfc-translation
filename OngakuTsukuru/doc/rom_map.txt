@@ -68,6 +68,8 @@ C32EA8 - Tiles (Compressed)	- Top Menu (from Jukebox Screen)
 C337E8 - Tilemap (32x5)		- ??? (from Jukebox Screen)
 C34528 - Tiles (Compressed)	- Volume Bars (from Music Player Screen)
 C34F98 - Tiles (Compressed)	- Various Note Types for Score screen
+C36B88 - Tiles (Compressed)	- Score Menu (from Score Screen)
+C37518 - Tilemap (24x20)	- Score Menu (from Score Screen)
 C7E3B0 - Tiles (Compressed)	- Player Buttons
 C7E6B0 - Tilemap (10x2)		- Player Buttons?
 C7E728 - Tiles (Compressed)	- Data Menu (from Score Screen)
