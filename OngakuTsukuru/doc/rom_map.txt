@@ -20,7 +20,51 @@
 				if XX != 00 then stop and save value to $62
 				$62 is for VRAM upload, best to keep it as is
 
-C20000 - Tiles (Compressed) - Font for Saves
-C211D0 - Tiles (Compressed) - Save/Load/Delete/Reset Menu
-C7E728 - Tiles (Compressed) - Data Menu (from Composition Screen)
-C7ED08 - Tilemap - Data Menu (from Composition Screen) / 14x14
+C00000 - Tilemap (20x4)		- ???
+C001E0 - Tiles (Compressed)	- Note Types (from Score Screen)
+C01930 - Tiles (Compressed)	- Top Menu (from Score Screen)
+C01D20 - Tilemap (32x2)		- Top Menu (from Score Screen)
+C01DA0 - Tilemap (3x2)		- "Score" in Red from Top Menu (from Score Screen)
+C01DAC - Tilemap (7x2)		- "Play it!" from Top Menu (from Score Screen)
+C01DC8 - Tiles (Compressed)	- Track Number / Code (from Score Screen)
+C02018 - Tilemap (16x2)		- ???
+C02C78 - Tiles (Compressed)	- Bottom Icons 1 (from Score Screen)
+C02EA8 - Tiles (Compressed)	- Bottom Icons 2 (from Score Screen)
+C030F8 - Tilemap (8x4)		- ???
+C03188 - Tilemap (2x2)		- ???
+C031C8 - Tilemap (2x2)		- ???
+C031B0 - Tilemap (2x2)		- ???
+
+C15236 - Tiles (Compressed)	- Digits
+
+C20000 - Tiles (Compressed)	- Font for Saves
+C211D0 - Tiles (Compressed)	- Save/Load/Delete/Reset Menu
+C26CC4 - Tiles (Compressed)	- Font for Instrument Info
+C27030 - Tilemap (11x2)		- ???
+C30000 - Tiles (Compressed)	- UI (from Jukebox Screen)
+C30820 - Tilemap (32x24)	- ??? (from Jukebox Screen)
+C30F24 - Tiles (Compressed)	- Load Menu (from Jukebox Screen)
+C31540 - Tiles (Compressed)	- Load Message (from Jukebox Screen)
+C31858 - Tilemap (3x2)		- ??? (from Jukebox Screen)
+C31870 - Tilemap (4x2)		- ??? (from Jukebox Screen)
+C31890 - Tilemap (5x2)		- ??? (from Jukebox Screen)
+C318B8 - Tiles (Compressed)	- Background Thumbnails (from Jukebox Screen)
+C32D10 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32D28 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32D40 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32D58 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32D78 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32D88 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32DA0 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32E78 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32E90 - Tilemap (4x3)		- ??? (from Jukebox Screen)
+C32EA8 - Tiles (Compressed)	- Top Menu (from Jukebox Screen)
+C337E8 - Tilemap (32x5)		- ??? (from Jukebox Screen)
+C34528 - Tiles (Compressed)	- Volume Bars (from Music Player Screen)
+C34F98 - Tiles (Compressed)	- Various Note Types for Score screen
+C7E3B0 - Tiles (Compressed)	- Player Buttons
+C7E6B0 - Tilemap (10x2)		- Player Buttons?
+C7E728 - Tiles (Compressed)	- Data Menu (from Score Screen)
+C7ED08 - Tilemap (14x14)	- Data Menu (from Score Screen)
+C8C260 - Tilemap (32x32)	- UI Screen?
+C8CA60 - Tiles (Compressed)	- UI Background Stuff
