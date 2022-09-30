@@ -1,15 +1,20 @@
-//Main Screen - Data Tab Menu
+//Score Screen - Top Menu - Data Tab
+//- LOAD
+//- SAVE
+//- CONVERT
+//- DELETE
+//- RESET
 
 //$C7E728
-chr_main_data_menu:
-insert "./tmp/main_data_menu.chr.cmp"
-
+score_topmenu_data:
+insert "./tmp/score_topmenu_data.chr.cmp"
 
 enqueue pc
 
-seekAddr($82C05D); dl chr_main_data_menu
-seekAddr($82C3A6); dl chr_main_data_menu
+seekAddr($82C05D); dl score_topmenu_data
+seekAddr($82C3A6); dl score_topmenu_data
 
+//Tilemap
 seekAddr($C7ED08) //14x14
 //dw $0001,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0002,$0003
 //dw $0004,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0005,$0006

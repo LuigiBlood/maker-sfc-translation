@@ -1,4 +1,5 @@
 
 seekAddr($D00000)
-include "../gfx/en/main_data_menu.inc"
 include "../gfx/en/font.inc"
+include "../gfx/en/score_topmenu_bar.inc"
+include "../gfx/en/score_topmenu_data.inc"
