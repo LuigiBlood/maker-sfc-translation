@@ -76,3 +76,6 @@ C7E728 - Tiles (Compressed)	- Data Menu (from Score Screen)
 C7ED08 - Tilemap (14x14)	- Data Menu (from Score Screen)
 C8C260 - Tilemap (32x32)	- UI Screen?
 C8CA60 - Tiles (Compressed)	- UI Background Stuff
+
+CBAC10 - Tiles (Compressed)	- Reset Score Prompt (from Score Screen)
+CBAFC0 - Tilemap (16x8)		- Reset Score Prompt (from Score Screen)
