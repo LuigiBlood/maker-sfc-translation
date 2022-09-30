@@ -10,6 +10,7 @@ seekAddr(0)
 insert "./roms/OngakuTsukuruJP.sfc"
 
 include "./asm/insert.asm"
+include "./asm/button.asm"
 
 //Header
 seekAddr(0xFFB0)

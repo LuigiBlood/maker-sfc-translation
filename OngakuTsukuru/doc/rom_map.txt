@@ -14,6 +14,12 @@
 				L$00 = Source Addr
 				L$03 = Dest Addr
 
+81ADA2 - Code - Button Cursor Snap
+				X1 Y1 X2 Y2 ?? ?? XX YY
+				If X1 == FF then end
+
+81AFFE - Table - Buttons for Score Screen?
+
 82C072 - Code - Decompression Batch
 				A = 16-bit Address (bank 0x82)
 				XX SSSSSS DDDDDD if XX = 00
