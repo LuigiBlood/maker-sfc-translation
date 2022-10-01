@@ -41,6 +41,19 @@ C03188 - Tilemap (2x2)		- ???
 C031C8 - Tilemap (2x2)		- ???
 C031B0 - Tilemap (2x2)		- ???
 
+C03648 - Tiles (Compressed)	- New Score Window (from Score Screen)
+C031D0 - Tilemap (26x22)	- New Score Window (from Score Screen)
+C04698 - Tilemap (2x1)		- ???
+C0469C - Tilemap (2x1)		- ???
+C045E8 - Tilemap (2x3)		- ???
+C04634 - Tilemap (2x3)		- ???
+C04640 - Tilemap (2x2)		- ???
+C04648 - Tilemap (2x2)		- ???
+C04650 - Tilemap (2x3)		- ???
+C0465C - Tilemap (2x3)		- ???
+C04688 - Tilemap (2x1)		- ???
+C0468C - Tilemap (2x1)		- ???
+
 C15236 - Tiles (Compressed)	- Digits
 
 C20000 - Tiles (Compressed)	- Font for Saves
