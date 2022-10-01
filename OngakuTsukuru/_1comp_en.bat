@@ -5,3 +5,4 @@
 .\tools\compress.py .\gfx\en\score_new_prompt.chr .\gfx\en\tmp\score_new_prompt.chr.cmp
 .\tools\compress.py .\gfx\en\score_new_window.chr .\gfx\en\tmp\score_new_window.chr.cmp
 .\tools\compress.py .\gfx\en\score_ui.chr .\gfx\en\tmp\score_ui.chr.cmp
+.\tools\compress.py .\gfx\en\score_ui_track.chr .\gfx\en\tmp\score_ui_track.chr.cmp
