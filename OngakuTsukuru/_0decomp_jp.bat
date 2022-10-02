@@ -7,3 +7,4 @@
 .\tools\decompress.py .\roms\OngakuTsukuruJP.sfc 0x36B88 .\gfx\jp\score_topmenu_score.chr
 .\tools\decompress.py .\roms\OngakuTsukuruJP.sfc 0xBAC10 .\gfx\jp\score_new_prompt.chr
 .\tools\decompress.py .\roms\OngakuTsukuruJP.sfc 0x3648 .\gfx\jp\score_new_window.chr
+.\tools\decompress.py .\roms\OngakuTsukuruJP.sfc 0xB8240 .\gfx\jp\message_window.chr

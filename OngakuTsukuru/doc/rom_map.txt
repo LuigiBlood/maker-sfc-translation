@@ -90,8 +90,8 @@ C7ED08 - Tilemap (14x14)	- Data Menu (from Score Screen)
 C8C260 - Tilemap (32x32)	- UI Screen?
 C8CA60 - Tiles (Compressed)	- UI Background Stuff
 
-CB8240 - Tiles (Compressed) - Prompt (from Score Screen)???
-CB9AE0 - Tilemap (32x4)		- Prompt
-CBA660 - Tilemap (32x4)		- Prompt
+CB8240 - Tiles (Compressed) - Message Window
+CB9AE0 - Tilemap (32x4)		- Message Window (No Code Track)
+CBA660 - Tilemap (32x4)		- Message Window (Nothing to play)
 CBAC10 - Tiles (Compressed)	- Reset Score Prompt (from Score Screen)
 CBAFC0 - Tilemap (16x8)		- Reset Score Prompt (from Score Screen)
